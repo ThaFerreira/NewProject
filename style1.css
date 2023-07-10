@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root {
+    --text-color: white;
+    --bg-url: url(./artes/livro-mobile.jpg);
+    --stroke-color: rgba(255, 255, 255, 0.5);
+    --surface-color: rgba(255, 255, 255, 0.05);
+    --surface-color-hover: rgba(0, 0, 0, 0.02);
+    --highlight-color: rgba(255, 255, 255, 0.2);
+     
+  }
+  
+  body {
+    background-image: var(--bg-url);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  body * {
+    font-family: "Inter", sans-serif;
+    color: var(--text-color);
+  }
+
+  footer {
+    padding: 24px 0;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  /* media queries */
+  @media (min-width: 700px){
+      :root {
+        --bg-url: url(./artes/livros-desktop.jpeg);
+    }
+}
+  
+    /* animation */
+    @keyframes slide-in {
+      from {
+        left: 0;
+      }
+      to {
+        left: 50%;
+      }
+    }
+    
+    @keyframes slide-back {
+      from {
+        left: 50%;
+      }
+      to {
+        left: 0;
+      }
+    }

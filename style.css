@@ -7,7 +7,7 @@
     --text-color: white;
     --bg-url: url(./artes/bg-mobile.jpeg);
     --stroke-color: rgba(255, 255, 255, 0.5);
-    --surface-color: rgba:(255, 255, 255, 0.05);
+    --surface-color: rgba(255, 255, 255, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
     --highlight-color: rgba(255, 255, 255, 0.2);
     --switch-bg-url: url(./artes/moon-stars.svg)
@@ -17,7 +17,7 @@
     --text-color: black;
     --bg-url: url(./artes/bg-mobile-light.jpeg);
     --stroke-color: rgba(0, 0, 0, 0.5);
-    --surface-color: rgba:(0, 0, 0, 0.05);
+    --surface-color: rgba(0, 0, 0, 0.05);
      --surface-color-hover: rgba(0, 0, 0, 0.02);
      --highlight-color: rgba(0, 0, 0, 0.1);
       --switch-bg-url: url(./artes/sun.svg)
