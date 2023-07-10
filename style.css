@@ -173,10 +173,10 @@
   /* media queries */
   @media (min-width: 700px){
       :root {
-        --fl-url: url(./artes/bg-desktop.jpeg);
+        --bg-url: url(./artes/bg-desktop.jpeg);
       }
       .light {
-        --fl-url: url(./artes/bg-desktop-light.jpeg);
+        --bg-url: url(./artes/bg-desktop-light.jpeg);
       }
   }
   
