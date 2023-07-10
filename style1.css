@@ -1,59 +1,42 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  :root {
-    --text-color: white;
-    --bg-url: url(./artes/livro-mobile.jpg);
-    --stroke-color: rgba(255, 255, 255, 0.5);
-    --surface-color: rgba(255, 255, 255, 0.05);
-    --surface-color-hover: rgba(0, 0, 0, 0.02);
-    --highlight-color: rgba(255, 255, 255, 0.2);
-     
-  }
-  
+/* Estilos padrão para desktop */
+body {
+  background-image: url("artes/livros-desktop.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Media query para dispositivos móveis */
+@media (max-width: 768px) {
   body {
-    background-image: var(--bg-url);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-    height: 100vh;
-  }
-  
-  body * {
-    font-family: "Inter", sans-serif;
-    color: var(--text-color);
+    background-image: url("artes/livro-mobile.jpg");
   }
 
-  footer {
-    padding: 24px 0;
-    text-align: center;
+  h1 {
+    font-size: 20px;
+  }
+
+  #texto {
     font-size: 14px;
+    margin: 10px;
+    padding: 5px;
+  }
+  p {
+    margin-bottom: 20px;
   }
   
-  /* media queries */
-  @media (min-width: 700px){
-      :root {
-        --bg-url: url(./artes/livros-desktop.jpeg);
-    }
 }
-  
-    /* animation */
-    @keyframes slide-in {
-      from {
-        left: 0;
-      }
-      to {
-        left: 50%;
-      }
-    }
-    
-    @keyframes slide-back {
-      from {
-        left: 50%;
-      }
-      to {
-        left: 0;
-      }
-    }
+
+a {
+  display: block;
+  text-align: left;
+  margin-top: 20px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
