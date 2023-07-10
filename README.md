@@ -38,6 +38,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
+Projeto apaixonante que inspira o amor pela leitura. Com resenhas, recomendações e reflexões sobre livros, o blog busca promover o crescimento intelectual e o prazer da descoberta literária. Um espaço acolhedor para explorar o mundo dos livros e expandir horizontes.
 Projeto inspirado em aulas de Mayk Brito e Rocketseat.com.br
 
 ## 🔖Layout
