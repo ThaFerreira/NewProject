@@ -3,7 +3,9 @@ body {
   background-image: url("artes/livros-desktop.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+
 }
+
 
 /* Media query para dispositivos móveis */
 @media (max-width: 768px) {
@@ -15,15 +17,12 @@ body {
     font-size: 20px;
   }
 
-  #texto {
+  p {
     font-size: 14px;
     margin: 10px;
     padding: 5px;
-  }
-  p {
     margin-bottom: 20px;
   }
-  
 }
 
 a {
